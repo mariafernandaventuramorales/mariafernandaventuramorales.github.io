@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body header {
+    background-color: #ED6A6C;
+    height: 100px;
+	
+}
+main{
+	background-color: #E6EBE0;
+}
+header{
+    height: 55px;
+    background-color: #8C2E40;
+    color: white;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"
+}
+
+nav{
+    background-color: #9BC1BC;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+}
+
+body  {
+}
+body header, body nav, body main, body footer {
+	margin: 0 auto;
+	padding: 30px;
+	width: 100%;
+}
+body nav ul {
+	list-style-type: none;
+	background-color: #9BC1BC;
+	height: 80px;
+}
+body nav ul li {
+	display: inline-block;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+body nav ul li a{
+	text-decoration: none;
+}
+
+body ul li a:link , body ul  a: visited{
+	color: #E6EBE0;
+	width: 80%;
+}
+body ul li a:hover {
+	color: #ED6A6C;
+}
+
+body main section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 70%;
+    background-color: #F4F1BB;
+    color: #ED6A6C;
+    margin-left: auto;
+    padding: 30px;
+    margin-right: auto;
+    text-align: left;
+}
+section {
+	width: 80%;
+	height: auto;
+	background-color: transparent;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 30px;
+	display: inline-block;
+	padding: 40px;
+}
+
+body footer {
+	background-color: #ED6A6C;
+	height: 50px;
+}
+* {
+	padding: 0; 
+	margin: 0;
+}
+
+body{
+    color: #F4F1BB;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+table{
+	width: 80%;
+	margin: 0 auto;
+}
+table, td, th{
+    border: 5px solid #ED6A6C;
+    border-collapse: collapse;
+    padding: 10PX;
+    color: #ED6A6C;
+}
+th{
+    background-color: #9BC1BC;
+    color: #ED6A6C;
+}
+#tabla_uno td  ,#tabla_uno th{
+    border: 3px solid #36C9C6;
+    background-color: transparent;
+    color: #36C9C6;
+}
+#tabla_uno {
+    border: 3px solid #36C9C6;
+    background-color: transparent;
+}
+#tabla_uno thead tr th {
+    color: #F4F1BB;
+    background-color: #36C9C6;
+}
+#tabla_uno tbody tr td {
+    background-color: transparent;
+}
+#tabla_uno tbody tr:nth-child(even) {
+    background-color: #ED6A6C;
+    color: #36C9C6;
+}
+#tabla_uno tbody tr:nth-child(odd) {
+    background-color: #E6EBE0;
+    color: #ED6A6C;
+}
+#tabla_dos tbody tr td {
+    background-color: transparent;
+}
+#tabla_dos tbody tr:hover {
+    background-color: #E6EBE0;
+    color: #36C9C6;
+    border: 3px solid #36C9C6;
+}
+#tabla_dos {
+    width: 80%;
+}
+body header h1 {
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"
+	
+}
